@@ -1,0 +1,3 @@
+# Install Apache server and php on it, sadly file edit works only from terminal:
+
+http://www.allaboutlinux.eu/how-to-run-php-on-ubuntu/
