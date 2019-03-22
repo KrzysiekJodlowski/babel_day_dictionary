@@ -11,18 +11,10 @@
 
     $input = $_POST["input"];
 
-    switch ($input) {
-        case "auto":
-            echo $dictionary[$input];
-            break;
-	case "rower":
-            echo $dictionary[$input];
-            break;
-	case "samolot":
-            echo $dictionary[$input];
-            break;
-        default:
-            echo "Word not found!";
+    if ($dictionary[$input]) {
+	    echo $dictionary[$input];
+    } else {
+	    echo "Word not found!";
     }
 ?></br>
 <a href="dict.html">Try again</a></p>
